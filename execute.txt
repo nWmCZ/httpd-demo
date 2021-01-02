@@ -1,0 +1,7 @@
+az vmss extension set \
+  --publisher Microsoft.Azure.Extensions \
+  --version 2.0 \
+  --name CustomScript \
+  --resource-group scale-set \
+  --vmss-name ss1 \
+  --settings @v1.json

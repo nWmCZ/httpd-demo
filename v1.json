@@ -1,0 +1,4 @@
+{
+  "fileUris": ["https://raw.githubusercontent.com/nWmCZ/httpd-demo/master/install-httpd.sh"],
+  "commandToExecute": "./install-httpd.sh"
+}
